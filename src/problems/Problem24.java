@@ -2,7 +2,7 @@ package problems;
 
 import java.util.ArrayList;
 
-import static Helpers.Numeric.factorial;
+import static helpers.Numeric.factorial;
 
 public class Problem24 {
 
