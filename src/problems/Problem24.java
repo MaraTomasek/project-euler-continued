@@ -2,6 +2,8 @@ package problems;
 
 import java.util.ArrayList;
 
+import static Helpers.Numeric.factorial;
+
 public class Problem24 {
 
     // Lexicographic Permutations
@@ -43,11 +45,5 @@ public class Problem24 {
         System.out.println("The millionth lexicographic permutation is: \n" + result);
     }
 
-    private static int factorial(int number) {
-        int result = 1;
-        for (int i = 2; i <= number; i++) {
-            result *= i;
-        }
-        return result;
-    }
+
 }
